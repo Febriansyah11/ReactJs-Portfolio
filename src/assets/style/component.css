@@ -1,0 +1,69 @@
+.navbar-style {
+  background-color: #01FF70;
+}
+
+.welcome-style {
+  display: flex;
+  background-color: #20b2aa;
+  height: 100vh;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+.welcome-style-text {
+  color: white;
+}
+.wlecome-icon:hover {
+  text-decoration-color: white;
+  color: white;
+}
+
+.dashboard{
+  height: 100vh;
+  background-color: #5bc0de;
+} 
+@media screen and (max-width: 750px) {  
+  .dash-port {
+    height: 1100px;
+  }
+  .dash-bout {
+    height: 850px;
+  }
+
+}
+
+
+
+/* .dash-footer {
+  height: vh;
+} */
+#skill  {
+ color : #313e61
+}
+#education  {
+ color : white
+}
+#experience  {
+ color : white
+}
+#skill:hover {
+  text-shadow: 2px 2px 4px #191919;
+}
+#experience:hover {
+  text-shadow: 2px 2px 4px #4c4c4c;
+}
+
+
+.card-futsal-bg{
+ width: 18rem;
+ height:18rem;
+ background-image: url(../image/futsalBg1.png);
+ background-repeat: no-repeat;
+ background-size: 18rem 15rem;
+ background-position: 0%;
+
+}
+
+

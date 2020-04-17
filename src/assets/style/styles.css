@@ -1,0 +1,133 @@
+@font-face {
+  font-family: Raleway-Bold;
+  src: url(../fonts/Raleway-Bold.ttf);
+}
+@font-face {
+  font-family: Raleway-SemiBold;
+  src: url(../fonts/Raleway-SemiBold.ttf);
+}
+@font-face {
+  font-family: Raleway-ExtraBold;
+  src: url(../fonts/Raleway-ExtraBold.ttf);
+}
+@font-face {
+  font-family: Raleway-Light;
+  src: url(../fonts/Raleway-Light.ttf);
+}
+@font-face {
+  font-family: Raleway-LightItalic;
+  src: url(../fonts/Raleway-LightItalic.ttf);
+}
+@font-face {
+  font-family: Raleway-Regular;
+  src: url(../fonts/Raleway-Regular.ttf);
+}
+
+.text-raleway-welcome {
+  font-family: Raleway-Bold;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.text-raleway-footer {
+  font-family: Raleway-Regular;
+  font-size: 12px;
+  font-weight: 300;
+  font-style: normal;
+  color: white;
+}
+.text-raleway-welcome-button {
+  font-family: Raleway-Regular;
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  color: white;
+}
+.text-raleway-febri {
+  font-family: Raleway-SemiBold;
+  font-size: 30px;
+  font-weight: 600;
+  font-style: normal;
+  color: white;
+}
+.text-raleway-febri-item {
+  font-family: Raleway-SemiBold;
+  font-size: 22px;
+  font-weight: 600;
+  font-style: normal;
+  color: white;
+}
+.text-raleway-dashboard {
+  font-family: Raleway-Bold;
+  font-weight: 700;
+  font-size: 28px;
+  font-style: normal;
+  color: #313e61;
+}
+#example-collapse-te00xt {
+  font-family: Raleway-SemiBold;
+  font-size: 28px;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+
+.text-raleway-about {
+  font-family: Raleway-Bold;
+  font-size: 24px;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+
+.text-raleway-about-italic {
+  /* font-family: Raleway-SemiBold; */
+  font-size: 22px;
+  font-weight: 600;
+  font-style: italic;
+  color: white;
+}
+.text-raleway-about-item {
+  font-family: Raleway-SemiBold;
+  font-size: 26px;
+  font-weight: 600;
+  font-style: normal;
+  color: white;
+}
+
+.text-raleway-header-mail {
+  font-family: Raleway-Bold;
+  font-size: 22px;
+  font-weight: 400;
+  font-style: normal;
+  color: white;}
+
+@media screen and (max-width: 750px) {  
+  .text-raleway-about {
+    font-size: 18px;
+  }
+  .text-raleway-about-item {
+    font-size: 20px;
+  }
+
+}
+/* Spinner */
+.App-logo {
+  height: 20vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 3s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
